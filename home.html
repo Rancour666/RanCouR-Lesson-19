@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Lesson-19 [TechOnlineStore]</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20211121160154">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top">
+				<div class="top-header__container top-header">
+					<div data-spollers class="top-header__working-time spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title"><span>Mon-Thu:</span> 9:00 AM - 5:30 PM</button>
+							<div class="spollers__body">
+								<div class="top-header__shop-info shop-info">
+									<div class="shop-info__work-time work-time">
+										<div class="work-time__icon">
+											<img class="icon-work-time" src="img/header/work-time-icon.svg?_v=1637503314629" alt="icon">
+										</div>
+										<div class="work-time__content">
+											<div class="work-time__title">We are open:</div>
+											<p class="work-time__day"><span>Mon-Thu:</span> 9:00 AM - 5:30 PM</p>
+											<p class="work-time__day"><span>Fr:</span> 9:00 AM - 6:00 PM</p>
+											<p class="work-time__day"><span>Sat:</span> 11:00 AM - 5:00 PM</p>
+										</div>
+									</div>
+									<div class="shop-info__location location">
+										<div class="location__icon">
+											<img class="icon-location" src="img/header/location-icon.svg?_v=1637503314629" alt="icon">
+										</div>
+										<div class="location__content">
+											<div class="location__title">Address: 1234 Street Adress, City Address, 1234</div>
+										</div>
+									</div>
+									<div class="shop-info__phone-mail phone-mail">
+										<a href="tel:0012345678" class="phone-mail__phone"><span>Phones:</span> (00) 1234 5678</a>
+										<a href="mailto:shop@email.com" class="phone-mail__mail"><span>E-mail:</span> shop@email.com</a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="top-header__adress"><span>Visit our showroom in 1234 Street Adress City Address, 1234</span>  <a href="#" class="underline">Contact Us</a>
+					</div>
+					<div class="top-header__call call-top">
+						<a href="tel:0012345678" class="call-top__phone">Call Us: (00) 1234 5678</a>
+						<div class="call-top__icons icons-top">
+							<a href="#" class="icons-top__facebook-icon">
+								<img class="icon-facebook" src="img/icons/facebook-icon.svg?_v=1637503314629" alt="facebook-icon">
+							</a>
+							<a href="#" class="icons-top__instagram-icon">
+								<img class="icon-facebook" src="img/icons/insta-icon.svg?_v=1637503314629" alt="facebook-icon">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom">
+				<div class="bottom-header__container bottom-header">
+					<div class="bottom-header__logo">
+						<img src="img/icons/header-logo.svg?_v=1637503314629" alt="header-logo">
+					</div>
+					<div class="bottom-header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="" class="menu__link">Laptops</a>
+								</li>
+								<li class="menu__item"><a href="" class="menu__link">Desktop PCs</a>
+								</li>
+								<li class="menu__item"><a href="" class="menu__link">Networking Devices</a>
+								</li>
+								<li class="menu__item"><a href="" class="menu__link">Printers & Scanners</a>
+								</li>
+								<li class="menu__item"><a href="" class="menu__link">PC Parts</a>
+								</li>
+								<li class="menu__item"><a href="" class="menu__link">All Other Products</a>
+								</li>
+								<li class="menu__item"><a href="" class="menu__link">Repairs</a>
+								</li>
+								<li class="menu__item"><a href="" class="menu__link menu__link_blue-button">Our Deals</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="bottom-header__icons icons-header-bottom">
+						<a href="#" class="icons-header-bottom__search-icon">
+							<img src="img/icons/search-icon.svg?_v=1637503314629" alt="search-icon">
+						</a>
+						<a href="#" class="icons-header-bottom__cart-icon">
+							<img src="img/icons/cart-icon.svg?_v=1637503314629" alt="cart-icon"><span>2</span>
+						</a>
+						<a href="#" class="icons-header-bottom__user-icon">
+							<picture>
+								<source srcset="img/icons/me.webp" type="image/webp">
+									<img src="img/icons/me.jpeg?_v=1637503314629" alt="user-icon">
+							</picture>
+						</a>
+					</div>
+
+				</div>
+			</div>
+			<div class="header__sub sub-header">
+				<div class="sub-header__container">
+					<div class="sub-header-body">
+						<div class="sub-header-body__main-page">
+							<a href="#" class="sub-header-body__main-link">Home</a>
+						</div>
+						<div class="sub-header-body__main-divider">
+							<img src="img/icons/divider.svg?_v=1637503314629" alt="divider">
+						</div>
+						<div class="sub-header-body__sub-page">
+							<a href="#" class="sub-header-body__sub-link">About Us</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__title title">
+				<div class="title__container">
+					<div class="title__about">About Us</div>
+				</div>
+			</div>
+			<div class="page__about about about_white">
+				<div class="about__container">
+					<div class="about__main-block block-main">
+						<div class="block-main__column">
+							<div class="main-content">
+								<div class="main-content__title">A Family That Keeps On Growing</div>
+								<div class="main-content__text">
+									<p>We always aim to please the home market, supplying great computers and hardware at great prices to non-corporate customers, through our large Melbourne CBD showroom and our online store.</p>
+									<p>Shop management approach fosters a strong customer service focus in our staff. We prefer to cultivate long-term client relationships rather than achieve quick sales, demonstrated in the measure of our long-term success.</p>
+								</div>
+							</div>
+						</div>
+						<div class="block-main__column">
+							<div class="main-image">
+								<picture>
+									<source srcset="img/about/about-image-01.webp" type="image/webp">
+										<img class="image-main" src="img/about/about-image-01.jpg?_v=1637503314629" alt="image">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__about about_white">
+				<div class="about__container">
+					<div class="about__main-block block-main block-main_reverse">
+						<div class="block-main__column">
+							<div class="main-image">
+								<picture>
+									<source srcset="img/about/about-image-02.webp" type="image/webp">
+										<img class="image-main image-main_contain" src="img/about/about-image-02.png?_v=1637503314629" alt="image">
+								</picture>
+							</div>
+						</div>
+						<div class="block-main__column">
+							<div class="main-content">
+								<div class="main-content__icon">
+									<img class="icon-main" src="img/about/about-icon-01.svg?_v=1637503314629" alt="icon-main">
+								</div>
+								<div class="main-content__title main-content__title_black">shop.com</div>
+								<div class="main-content__text main-content__text_black">
+									<p>Shop is a proudly Australian owned, Melbourne based supplier of I.T. goods and services, operating since 1991. Our client base encompasses individuals, small business, corporate and government organisations. We provide complete business IT solutions,
+										centred on high quality hardware and exceptional customer service.</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="page__about about">
+				<div class="about__container">
+					<div class="about__main-block block-main">
+						<div class="block-main__column">
+							<div class="main-content">
+								<div class="main-content__icon">
+									<img class="icon-main" src="img/about/about-icon-02.svg?_v=1637503314629" alt="icon-main">
+								</div>
+
+								<div class="main-content__title">AYou're In Safe Hands</div>
+								<div class="main-content__text">
+									<p>Experience a 40% boost in computing from last generation. MSI Desktop equips the 10th Gen. Intel® Core™ i7 processor with the upmost computing power to bring you an unparalleled gaming experience. *Performance compared to i7-9700. Specs varies
+										by model.</p>
+								</div>
+							</div>
+						</div>
+						<div class="block-main__column">
+							<div class="main-image">
+								<picture>
+									<source srcset="img/about/about-image-03.webp" type="image/webp">
+										<img class="image-main image-main_contain-two" src="img/about/about-image-03.png?_v=1637503314629" alt="image">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__about about_white">
+				<div class="about__container">
+					<div class="about__main-block block-main block-main_reverse">
+						<div class="block-main__column">
+							<div class="main-image">
+								<picture>
+									<source srcset="img/about/about-image-04.webp" type="image/webp">
+										<img class="image-main image-main_contain" src="img/about/about-image-04.png?_v=1637503314629" alt="image">
+								</picture>
+							</div>
+						</div>
+						<div class="block-main__column">
+							<div class="main-content">
+								<div class="main-content__icon">
+									<img class="icon-main" src="img/about/about-icon-01.svg?_v=1637503314629" alt="icon-main">
+								</div>
+								<div class="main-content__title main-content__title_black">The Highest Quality of Products</div>
+								<div class="main-content__text main-content__text_black">
+									<p>SWe guarantee the highest quality of the products we sell. Several decades of successful operation and millions of happy customers let us feel certain about that. Besides, all items we sell pass thorough quality control, so no characteristics
+										mismatch can escape the eye of our professionals.</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="page__about about">
+				<div class="about__container">
+					<div class="about__main-block block-main">
+						<div class="block-main__column">
+							<div class="main-content">
+								<div class="main-content__icon">
+									<img class="icon-main" src="img/about/about-icon-04.svg?_v=1637503314629" alt="icon-main">
+								</div>
+
+								<div class="main-content__title">ADelivery to All Regions</div>
+								<div class="main-content__text">
+									<p>We deliver our goods all across Australia. No matter where you live, your order will be shipped in time and delivered right to your door or to any other location you have stated. The packages are handled with utmost care, so the ordered products
+										will be handed to you safe and sound, just like you expect them to be.</p>
+								</div>
+							</div>
+						</div>
+						<div class="block-main__column">
+							<div class="main-image">
+								<picture>
+									<source srcset="img/about/about-image-05.webp" type="image/webp">
+										<img class="image-main image-main_contain-two" src="img/about/about-image-05.png?_v=1637503314629" alt="image">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__rewiev rewiev">
+				<div class="rewiev__container">
+					<div class="rewiev__body">
+						<div class="body-rewiev">
+							<div data-tabs class="tabs">
+								<nav data-tabs-titles class="tabs__navigation">
+									<button type="submit" class="tabs__title _active">Таб №1</button>
+									<button type="submit" class="tabs__title">Таб №2</button>
+									<button type="submit" class="tabs__title">Таб №3</button>
+									<button type="submit" class="tabs__title">Таб №4</button>
+								</nav>
+								<div data-tabs-body class="tabs__content">
+									<div class="tabs__body">
+										<div class="body-tab">
+											<div class="body-tab__top top-tab">
+												<div class="top-tab__icon">
+													<img class="icon-tab" src="img/tab-block/tabs-icon-01.svg?_v=1637503314629" alt="icon">
+												</div>
+												<div class="top-tab__text">My first order arrived today in perfect condition. From the time I sent a question about the item to making the purchase, to the shipping and now the delivery, your company, Tecs, has stayed in touch. Such great service. I look forward to
+													shopping on your site in the future and would highly recommend it.
+												</div>
+
+											</div>
+											<div class="body-tab__name">- Tama Brown</div>
+											<div class="body-tab__navigation navigation-tab">
+												<a href="#" class="navigation-tab__link-button">Leave Us A Review</a>
+											</div>
+
+										</div>
+
+									</div>
+									<div class="tabs__body">
+										<div class="body-tab">
+											<div class="body-tab__top top-tab">
+												<div class="top-tab__icon">
+													<img class="icon-tab" src="img/tab-block/tabs-icon-01.svg?_v=1637503314629" alt="icon">
+												</div>
+												<div class="top-tab__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eos minima fuga dolorem dignissimos iusto nisi beatae delectus incidunt at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eos minima fuga dolorem dignissimos iusto
+													nisi beatae delectus incidunt at!Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eos minima fuga dolorem dignissimos iusto nisi beatae delectus incidunt at!Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eos
+													minima fuga dolorem dignissimos iusto nisi beatae delectus incidunt at!</div>
+
+											</div>
+											<div class="body-tab__name">- FreeLancer</div>
+											<div class="body-tab__navigation navigation-tab">
+												<a href="#" class="navigation-tab__link-button">Leave Us A Review</a>
+											</div>
+
+										</div>
+
+									</div>
+									<div class="tabs__body">
+										<div class="body-tab">
+											<div class="body-tab__top top-tab">
+												<div class="top-tab__icon">
+													<img class="icon-tab" src="img/tab-block/tabs-icon-01.svg?_v=1637503314629" alt="icon">
+												</div>
+												<div class="top-tab__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus numquam, ea vel nihil temporibus laboriosam autem repellat, accusantium optio distinctio, animi recusandae iure laborum quod? Voluptas provident minus cupiditate quaerat.
+												</div>
+
+											</div>
+											<div class="body-tab__name">- Denys Nedbaylo</div>
+											<div class="body-tab__navigation navigation-tab">
+												<a href="#" class="navigation-tab__link-button">Leave Us A Review</a>
+											</div>
+
+										</div>
+
+									</div>
+									<div class="tabs__body">
+										<div class="body-tab">
+											<div class="body-tab__top top-tab">
+												<div class="top-tab__icon">
+													<img class="icon-tab" src="img/tab-block/tabs-icon-01.svg?_v=1637503314629" alt="icon">
+												</div>
+												<div class="top-tab__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quo iste sunt, excepturi alias reprehenderit in consectetur, ipsa repudiandae quae temporibus sapiente tenetur architecto aspernatur vero nobis molestiae molestias? Nam quisquam,
+													enim cum ex molestias ipsa maiores repellat ducimus! Suscipit!</div>
+
+											</div>
+											<div class="body-tab__name">- Angry Pac-Man</div>
+											<div class="body-tab__navigation navigation-tab">
+												<a href="#" class="navigation-tab__link-button">Leave Us A Review</a>
+											</div>
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="page__advantages advantages">
+				<div class="advantages__container">
+					<div class="advantages__body">
+						<div class="body-advantages">
+							<div class="body-advantages__cards">
+								<div class="card-advantages">
+									<div class="card-advantages__icon">
+										<img class="icon-advantages" src="img/advantages/advantages-icon-01.svg?_v=1637503314629" alt="icon">
+									</div>
+									<div class="card-advantages__title">Product Support</div>
+									<div class="card-advantages__text">Up to 3 years on-site warranty available for your peace of mind.</div>
+								</div>
+								<div class="card-advantages">
+									<div class="card-advantages__icon">
+										<img class="icon-advantages" src="img/advantages/advantages-icon-02.svg?_v=1637503314629" alt="icon">
+									</div>
+									<div class="card-advantages__title">Personal Account</div>
+									<div class="card-advantages__text">With big discounts, free delivery and a dedicated support specialist.</div>
+								</div>
+								<div class="card-advantages">
+									<div class="card-advantages__icon">
+										<img class="icon-advantages" src="img/advantages/advantages-icon-02.svg?_v=1637503314629" alt="icon">
+									</div>
+									<div class="card-advantages__title">Amazing Savings</div>
+									<div class="card-advantages__text">Up to 70% off new Products, you can be sure of the best price.</div>
+								</div>
+
+							</div>
+
+						</div>
+
+
+					</div>
+
+				</div>
+
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body body-footer">
+					<div class="body-footer__top top-footer">
+						<div class="top-footer__form">
+							<form class="footer-subscribe" action="#">
+								<div class="footer-subscribe__titles">
+									<div class="top-footer__title">Sign Up To Our Newsletter.</div>
+									<div class="top-footer__subtitle">Be the first to hear about the latest offers.</div>
+								</div>
+								<div class="footer-subscribe__mail">
+									<input class="mail-footer" name="email" placeholder="Your Email" type="email" value="" autocomplete="off">
+								</div>
+								<div class="footer-subscribe__button">
+									<button class="button-footer" type="submit">Subscribe</button>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="body-footer__middle middle-footer">
+						<div data-spollers="992, max" data-one-spoller class="middle-footer__spoller spollers">
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Information</button>
+								<div class="spollers__body information-body">
+									<nav class="information-body__body">
+										<ul class="information-body__list">
+											<li class="information-body__item"><a href="#" class="information-body__link">About Us</a>
+											</li>
+											<li class="information-body__item"><a href="#" class="information-body__link">About Zip</a>
+											</li>
+											<li class="information-body__item"><a href="#" class="information-body__link">Privacy Policy</a>
+											</li>
+											<li class="information-body__item"><a href="#" class="information-body__link">Search</a>
+											</li>
+											<li class="information-body__item"><a href="#" class="information-body__link">Terms</a>
+											</li>
+											<li class="information-body__item"><a href="#" class="information-body__link">Orders and Returns</a>
+											</li>
+											<li class="information-body__item"><a href="#" class="information-body__link">Contact Us</a>
+											</li>
+											<li class="information-body__item"><a href="#" class="information-body__link">Advanced Search</a>
+											</li>
+											<li class="information-body__item"><a href="#" class="information-body__link">Newsletter Subscription</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">PC Parts</button>
+								<div class="spollers__body parts-body">
+									<nav class="parts-body__body">
+										<ul class="parts-body__list">
+											<li class="parts-body__item"><a href="#" class="parts-body__link">CPUS</a>
+											</li>
+											<li class="parts-body__item"><a href="#" class="parts-body__link">Add On Cards</a>
+											</li>
+											<li class="parts-body__item"><a href="#" class="parts-body__link">Hard Drives (Internal)</a>
+											</li>
+											<li class="parts-body__item"><a href="#" class="parts-body__link">Graphic Cards</a>
+											</li>
+											<li class="parts-body__item"><a href="#" class="parts-body__link">Keyboards / Mice</a>
+											</li>
+											<li class="parts-body__item"><a href="#" class="parts-body__link">Cases / Power Supplies / Cooling</a>
+											</li>
+											<li class="parts-body__item"><a href="#" class="parts-body__link">RAM (Memory)</a>
+											</li>
+											<li class="parts-body__item"><a href="#" class="parts-body__link">Software</a>
+											</li>
+											<li class="parts-body__item"><a href="#" class="parts-body__link">Speakers / Headsets</a>
+											</li>
+											<li class="parts-body__item"><a href="#" class="parts-body__link">Motherboards</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Desktop PCs</button>
+								<div class="spollers__body desktop-body">
+									<nav class="desktop-body__body">
+										<ul class="desktop-body__list">
+											<li class="desktop-body__item"><a href="#" class="desktop-body__link">Custom PCs</a>
+											</li>
+											<li class="desktop-body__item"><a href="#" class="desktop-body__link">Servers</a>
+											</li>
+											<li class="desktop-body__item"><a href="#" class="desktop-body__link">MSI All-In-One PCs</a>
+											</li>
+											<li class="desktop-body__item"><a href="#" class="desktop-body__link">HP/Compaq PCs</a>
+											</li>
+											<li class="desktop-body__item"><a href="#" class="desktop-body__link">ASUS PCs</a>
+											</li>
+											<li class="desktop-body__item"><a href="#" class="desktop-body__link">Tecdesktop</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Laptops</button>
+								<div class="spollers__body laptops-body">
+									<nav class="laptops-body__body">
+										<ul class="laptops-body__list">
+											<li class="laptops-body__item"><a href="#" class="laptops-body__link">Evryday Use Notebooks</a>
+											</li>
+											<li class="laptops-body__item"><a href="#" class="laptops-body__link">MSI Workstation Series</a>
+											</li>
+											<li class="laptops-body__item"><a href="#" class="laptops-body__link">MSI Prestige Series</a>
+											</li>
+											<li class="laptops-body__item"><a href="#" class="laptops-body__link">Tablets and Pads</a>
+											</li>
+											<li class="laptops-body__item"><a href="#" class="laptops-body__link">Netbooks</a>
+											</li>
+											<li class="laptops-body__item"><a href="#" class="laptops-body__link">Infinity Gaming Notebooks</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Address</button>
+								<div class="spollers__body address-body">
+									<nav class="address-body__body">
+										<ul class="address-body__list">
+											<li class="address-body__item"><a href="#" class="address-body__link">Address: 1234 Street Adress City Address, 1234</a>
+											</li>
+											<li class="address-body__item"><a href="tel:0012345678" class="address-body__link">Phones: <span>(00) 1234 5678</span></a>
+											</li>
+											<li class="address-body__item"><a href="#" class="address-body__link">We are open: Monday-Thursday: 9:00 AM - 5:30 PM</a>
+											</li>
+											<li class="address-body__item"><a href="#" class="address-body__link">Friday: 9:00 AM - 6:00 PM</a>
+											</li>
+											<li class="address-body__item"><a href="#" class="address-body__link">Saturday: 11:00 AM - 5:00 PM</a>
+											</li>
+											<li class="address-body__item"><a href="mailto:shop@email.com" class="address-body__link">E-mail: <span>shop@email.com</span></a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="body-footer__bottom bottom-footer">
+						<div class="bottom-footer__socials footer-social-icons">
+							<div class="footer-social-icons__icon">
+								<img class="footer-icon" src="img/footer/footer-facebook-icon.svg?_v=1637503314629" alt="social-icon">
+							</div>
+							<div class="footer-social-icons__icon">
+								<img class="footer-icon" src="img/footer/footer-instagram-icon.svg?_v=1637503314629" alt="social-icon">
+							</div>
+						</div>
+						<div class="bottom-footer__credit-cards footer-credit-cards">
+							<div class="footer-credit-cards__credit-card">
+								<img class="card-credit" src="img/footer/credit-cards/paypal.svg?_v=1637503314629" alt="credit-card-image">
+							</div>
+							<div class="footer-credit-cards__credit-card">
+								<img class="card-credit" src="img/footer/credit-cards/visa.svg?_v=1637503314629" alt="credit-card-image">
+							</div>
+							<div class="footer-credit-cards__credit-card">
+								<img class="card-credit" src="img/footer/credit-cards/maestro.svg?_v=1637503314629" alt="credit-card-image">
+							</div>
+							<div class="footer-credit-cards__credit-card">
+								<img class="card-credit" src="img/footer/credit-cards/discover.svg?_v=1637503314629" alt="credit-card-image">
+							</div>
+							<div class="footer-credit-cards__credit-card">
+								<img class="card-credit" src="img/footer/credit-cards/american-express.svg?_v=1637503314629" alt="credit-card-image">
+							</div>
+						</div>
+						<div class="bottom-footer__copyright">Copyright © 2020 Shop Pty. Ltd.</div>
+
+					</div>
+
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/app.min.js?_v=20211121160154"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/myscript.js"></script>
+</body>
+
+</html>

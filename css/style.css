@@ -1640,7 +1640,7 @@ textarea.input {
 }
 
 .page {
-  padding: 140px 0px 0px 0px;
+  padding: 190px 0px 0px 0px;
 }
 
 .title {
@@ -2359,10 +2359,18 @@ textarea.input {
             justify-content: space-between;
   }
 
+  .header__sub {
+    padding: 5px 0px;
+  }
+
   .footer-subscribe {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+
+  .page {
+    padding: 220px 0px 0px 0px;
   }
 
   .about__container {
@@ -2498,6 +2506,14 @@ textarea.input {
 
   .address-body__link {
     font-size: 12px;
+  }
+
+  .page {
+    padding: 250px 0px 0px 0px;
+  }
+
+  .title {
+    padding: 0px 0px 5px 0px;
   }
 
   .about__container {

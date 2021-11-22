@@ -1718,6 +1718,7 @@ textarea.input {
   font-size: calc(14px + 4 * (100vw - 768px) / 672);
   line-height: 1.44;
   color: #FFFFFF;
+  overflow: auto;
   max-height: 280px;
 }
 
@@ -1910,12 +1911,6 @@ textarea.input {
   min-width: 0;
 }
 
-@media (min-width: 701px) {
-  .main-content__text {
-    overflow: auto;
-  }
-}
-
 @media (min-width: 992px) {
   .select__option:hover {
     background: #d9d9d9;
@@ -1931,6 +1926,12 @@ textarea.input {
   }
 }
 
+@media (max-width: 1400px) {
+  .wrapper {
+    padding: 220px 0px 0px 0px;
+  }
+}
+
 @media (max-width: 992px) {
   .select__title {
     font-size: 18px;
@@ -1941,14 +1942,16 @@ textarea.input {
   }
 }
 
+@media (max-width: 991.98px) {
+  .wrapper {
+    padding: 250px 0px 0px 0px;
+  }
+}
+
 @media (max-width: 48em) {
   [class*=__container] {
     max-width: none;
     padding: 0 15px;
-  }
-
-  .wrapper {
-    padding: 100px 0px 0px 0px;
   }
 
   .header__top.menu-open {
@@ -2209,6 +2212,12 @@ textarea.input {
   }
 }
 
+@media (max-width: 767.98px) {
+  .wrapper {
+    padding: 100px 0px 0px 0px;
+  }
+}
+
 @media (max-width: 700px) {
   .footer {
     padding: 35px 23px;
@@ -2337,10 +2346,6 @@ textarea.input {
     max-width: 970px;
   }
 
-  .wrapper {
-    padding: 220px 0px 0px 0px;
-  }
-
   .header__bottom {
     padding: 15px 0px;
   }
@@ -2395,10 +2400,6 @@ textarea.input {
 @media (max-width: 61.99875em) {
   [class*=__container] {
     max-width: 750px;
-  }
-
-  .wrapper {
-    padding: 250px 0px 0px 0px;
   }
 
   .top-header__adress span {

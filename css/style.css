@@ -927,6 +927,7 @@ textarea.input {
 .wrapper {
   overflow: hidden;
   min-height: 100%;
+  padding: 190px 0px 0px 0px;
 }
 
 .header {
@@ -1639,10 +1640,6 @@ textarea.input {
   gap: 10px;
 }
 
-.page {
-  padding: 190px 0px 0px 0px;
-}
-
 .title {
   padding: 0px 0px 20px 0px;
 }
@@ -1721,7 +1718,6 @@ textarea.input {
   font-size: calc(14px + 4 * (100vw - 768px) / 672);
   line-height: 1.44;
   color: #FFFFFF;
-  overflow: auto;
   max-height: 280px;
 }
 
@@ -1914,10 +1910,9 @@ textarea.input {
   min-width: 0;
 }
 
-@media (min-width: 61.99875empx) {
-  .quantity__button:hover::before,
-  .quantity__button:hover::after {
-    background-color: rgba(0, 0, 0, 0.5);
+@media (min-width: 701px) {
+  .main-content__text {
+    overflow: auto;
   }
 }
 
@@ -1929,12 +1924,31 @@ textarea.input {
   .checkbox a:hover {
     text-decoration: none;
   }
+
+  .quantity__button:hover::before,
+  .quantity__button:hover::after {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media (max-width: 992px) {
+  .select__title {
+    font-size: 18px;
+  }
+
+  .select__options {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 48em) {
   [class*=__container] {
     max-width: none;
     padding: 0 15px;
+  }
+
+  .wrapper {
+    padding: 100px 0px 0px 0px;
   }
 
   .header__top.menu-open {
@@ -2149,10 +2163,6 @@ textarea.input {
     font-size: 13px;
   }
 
-  .page {
-    padding: 100px 0px 0px 0px;
-  }
-
   .main-content {
     padding: 17px 15px 26px;
   }
@@ -2160,10 +2170,6 @@ textarea.input {
   .main-content__icon {
     height: 30px;
     width: 30px;
-  }
-
-  .main-content__title {
-    margin: 0px 0px 13px 0px;
   }
 
   .main-content__text > *:not(:last-child) {
@@ -2331,6 +2337,10 @@ textarea.input {
     max-width: 970px;
   }
 
+  .wrapper {
+    padding: 220px 0px 0px 0px;
+  }
+
   .header__bottom {
     padding: 15px 0px;
   }
@@ -2369,10 +2379,6 @@ textarea.input {
             align-items: center;
   }
 
-  .page {
-    padding: 220px 0px 0px 0px;
-  }
-
   .about__container {
     padding: 96px 0px;
   }
@@ -2389,6 +2395,10 @@ textarea.input {
 @media (max-width: 61.99875em) {
   [class*=__container] {
     max-width: 750px;
+  }
+
+  .wrapper {
+    padding: 250px 0px 0px 0px;
   }
 
   .top-header__adress span {
@@ -2508,30 +2518,12 @@ textarea.input {
     font-size: 12px;
   }
 
-  .page {
-    padding: 250px 0px 0px 0px;
-  }
-
-  .title {
-    padding: 0px 0px 5px 0px;
-  }
-
   .about__container {
     padding: 96px 15px;
   }
 
   .rewiev__body {
     padding: 34px 42px 29px 19px;
-  }
-}
-
-@media (max-width: 61.99875empx) {
-  .select__title {
-    font-size: 18px;
-  }
-
-  .select__options {
-    font-size: 18px;
   }
 }
 

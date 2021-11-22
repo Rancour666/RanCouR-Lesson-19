@@ -1684,7 +1684,7 @@ textarea.input {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 465px;
           flex: 0 1 465px;
-  height: 100%;
+  max-height: 488px;
 }
 
 .main-content__icon {
@@ -1721,6 +1721,8 @@ textarea.input {
   font-size: calc(14px + 4 * (100vw - 768px) / 672);
   line-height: 1.44;
   color: #FFFFFF;
+  overflow: auto;
+  max-height: 280px;
 }
 
 .main-content__text_black {

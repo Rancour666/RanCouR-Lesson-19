@@ -2342,6 +2342,8 @@ textarea.input {
 
   .header__sub {
     border-top: 0px solid #CACDD8;
+    padding: 0px;
+    display: none;
   }
 
   .middle-footer__spoller {
@@ -2548,11 +2550,6 @@ textarea.input {
   .menu__link {
     font-size: 16px;
     letter-spacing: 1.2px;
-  }
-
-  .header__sub {
-    padding: 0px;
-    display: none;
   }
 
   .main-content {

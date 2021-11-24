@@ -1170,10 +1170,18 @@ textarea.input {
   /*=========================================SAERCH=======================================*/
 }
 
+.menu__logo-burger {
+  position: absolute;
+  top: 20px;
+  height: 0;
+  width: 34px;
+  height: 40px;
+}
+
 .menu__body.menu-open {
   left: 0;
   opacity: 1;
-  padding: 85px 20px 20px 20px;
+  padding: 85px 20px 20px 24px;
   position: fixed;
 }
 
@@ -2158,7 +2166,7 @@ textarea.input {
   .bottom-header::after {
     content: "";
     position: absolute;
-    top: -37px;
+    top: -39px;
     left: 34.7px;
     width: 18.5px;
     height: 24px;
@@ -2198,7 +2206,7 @@ textarea.input {
     position: fixed;
     top: 0%;
     left: -100%;
-    width: 85%;
+    width: 100%;
     height: 100%;
     padding: 110px 0px 0px 0px;
     opacity: 0;
@@ -2218,7 +2226,6 @@ textarea.input {
         -ms-flex-align: start;
             align-items: start;
     row-gap: 0;
-    max-width: 95%;
   }
 
   .menu__list > *:nth-child(odd) {
@@ -2255,13 +2262,13 @@ textarea.input {
     opacity: 1;
   }
 
-  .menu__list.menu-open:first-child {
+  .menu__list.menu-open:nth-child(2) {
     border-top: 1px solid white;
     padding: 10px 0px 0px 0px;
   }
 
   .menu__item {
-    padding: 0px 0px 0px 24px;
+    padding: 0px 10px;
   }
 
   .menu__item:not(:last-child) {
@@ -2281,7 +2288,7 @@ textarea.input {
     content: "";
     position: absolute;
     top: calc(50% - 1.5px);
-    right: 0;
+    right: 10px;
     width: 5px;
     height: 1px;
     background-color: #fff;
@@ -2294,7 +2301,7 @@ textarea.input {
     content: "";
     position: absolute;
     top: calc(50% + 1.5px);
-    right: 0;
+    right: 10px;
     width: 5px;
     height: 1px;
     background-color: #fff;
@@ -2364,8 +2371,8 @@ textarea.input {
 
   .menu .icon-menu.menu-open {
     position: absolute;
-    top: 25px;
-    left: 90%;
+    top: 20px;
+    left: calc(100% + 47px);
   }
 
   .menu .icon-menu.menu-open span {

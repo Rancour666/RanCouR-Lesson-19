@@ -1176,6 +1176,144 @@ textarea.input {
   height: 0;
   width: 34px;
   height: 40px;
+  -webkit-animation: logoMove 2.5s linear infinite alternate 0s;
+          animation: logoMove 2.5s linear infinite alternate 0s;
+}
+
+@-webkit-keyframes logoMove {
+  0% {
+    top: 24px;
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+
+  10% {
+    top: 23px;
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+
+  20% {
+    top: 22px;
+    -webkit-transform: scale(0.99);
+            transform: scale(0.99);
+  }
+
+  30% {
+    top: 21px;
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+
+  40% {
+    top: 20px;
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+  }
+
+  50% {
+    top: 19px;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+
+  60% {
+    top: 20px;
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+  }
+
+  70% {
+    top: 21px;
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+
+  80% {
+    top: 22px;
+    -webkit-transform: scale(0.99);
+            transform: scale(0.99);
+  }
+
+  90% {
+    top: 23px;
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+
+  100% {
+    top: 24px;
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+}
+
+@keyframes logoMove {
+  0% {
+    top: 24px;
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+
+  10% {
+    top: 23px;
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+
+  20% {
+    top: 22px;
+    -webkit-transform: scale(0.99);
+            transform: scale(0.99);
+  }
+
+  30% {
+    top: 21px;
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+
+  40% {
+    top: 20px;
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+  }
+
+  50% {
+    top: 19px;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+
+  60% {
+    top: 20px;
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+  }
+
+  70% {
+    top: 21px;
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+
+  80% {
+    top: 22px;
+    -webkit-transform: scale(0.99);
+            transform: scale(0.99);
+  }
+
+  90% {
+    top: 23px;
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+
+  100% {
+    top: 24px;
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
 }
 
 .menu__body.menu-open {

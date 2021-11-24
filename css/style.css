@@ -1257,6 +1257,7 @@ textarea.input {
 }
 
 .menu__search input {
+  cursor: pointer;
   height: 60px;
   width: 0;
   opacity: 0;
@@ -1293,14 +1294,18 @@ textarea.input {
   position: absolute;
   top: 0;
   right: 25px;
-  cursor: pointer;
   -webkit-transition: 0.4s cubic-bezier(0, 0.8, 0, 1);
   -o-transition: 0.4s cubic-bezier(0, 0.8, 0, 1);
   transition: 0.4s cubic-bezier(0, 0.8, 0, 1);
+  cursor: pointer;
 }
 
 .menu__search button._active {
   background: url("../img/icons/cross-icon.svg") 100% 50% no-repeat;
+}
+
+.search-button {
+  cursor: pointer;
 }
 
 .icons-header-bottom {

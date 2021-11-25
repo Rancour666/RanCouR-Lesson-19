@@ -1137,6 +1137,11 @@ textarea.input {
           order: 1;
 }
 
+.bottom-header__logo img {
+  -webkit-animation: logoBig 3s linear infinite alternate 0s;
+          animation: logoBig 3s linear infinite alternate 0s;
+}
+
 .bottom-header__menu {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
@@ -1176,8 +1181,8 @@ textarea.input {
   height: 0;
   width: 34px;
   height: 40px;
-  -webkit-animation: logoMove 2.5s linear infinite alternate 0s;
-          animation: logoMove 2.5s linear infinite alternate 0s;
+  -webkit-animation: logoMove 3s linear infinite alternate 0s;
+          animation: logoMove 3s linear infinite alternate 0s;
 }
 
 @-webkit-keyframes logoMove {
@@ -1189,56 +1194,56 @@ textarea.input {
 
   10% {
     top: 23px;
-    -webkit-transform: scale(0.97);
-            transform: scale(0.97);
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
   }
 
   20% {
     top: 22px;
-    -webkit-transform: scale(0.99);
-            transform: scale(0.99);
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
   }
 
   30% {
     top: 21px;
-    -webkit-transform: scale(1.01);
-            transform: scale(1.01);
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
   }
 
   40% {
     top: 20px;
-    -webkit-transform: scale(1.03);
-            transform: scale(1.03);
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07);
   }
 
   50% {
     top: 19px;
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 
   60% {
     top: 20px;
-    -webkit-transform: scale(1.03);
-            transform: scale(1.03);
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07);
   }
 
   70% {
     top: 21px;
-    -webkit-transform: scale(1.01);
-            transform: scale(1.01);
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
   }
 
   80% {
     top: 22px;
-    -webkit-transform: scale(0.99);
-            transform: scale(0.99);
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
   }
 
   90% {
     top: 23px;
-    -webkit-transform: scale(0.97);
-            transform: scale(0.97);
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
   }
 
   100% {
@@ -1257,60 +1262,174 @@ textarea.input {
 
   10% {
     top: 23px;
-    -webkit-transform: scale(0.97);
-            transform: scale(0.97);
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
   }
 
   20% {
     top: 22px;
-    -webkit-transform: scale(0.99);
-            transform: scale(0.99);
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
   }
 
   30% {
     top: 21px;
-    -webkit-transform: scale(1.01);
-            transform: scale(1.01);
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
   }
 
   40% {
     top: 20px;
-    -webkit-transform: scale(1.03);
-            transform: scale(1.03);
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07);
   }
 
   50% {
     top: 19px;
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 
   60% {
     top: 20px;
-    -webkit-transform: scale(1.03);
-            transform: scale(1.03);
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07);
   }
 
   70% {
     top: 21px;
-    -webkit-transform: scale(1.01);
-            transform: scale(1.01);
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
   }
 
   80% {
     top: 22px;
-    -webkit-transform: scale(0.99);
-            transform: scale(0.99);
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
   }
 
   90% {
     top: 23px;
-    -webkit-transform: scale(0.97);
-            transform: scale(0.97);
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
   }
 
   100% {
     top: 24px;
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+}
+
+@-webkit-keyframes logoBig {
+  0% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+
+  10% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+  }
+
+  20% {
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+
+  30% {
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+  }
+
+  40% {
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+
+  60% {
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07);
+  }
+
+  70% {
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+  }
+
+  80% {
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+
+  90% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+  }
+
+  100% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+}
+
+@keyframes logoBig {
+  0% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+
+  10% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+  }
+
+  20% {
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+
+  30% {
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+  }
+
+  40% {
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+
+  60% {
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07);
+  }
+
+  70% {
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+  }
+
+  80% {
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+
+  90% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+  }
+
+  100% {
     -webkit-transform: scale(0.95);
             transform: scale(0.95);
   }
@@ -1923,6 +2042,8 @@ textarea.input {
   position: relative;
   height: 50px;
   width: 50px;
+  -webkit-animation: logoBig 3s linear infinite alternate 0s;
+          animation: logoBig 3s linear infinite alternate 0s;
 }
 
 .main-content__icon img {
@@ -1977,6 +2098,8 @@ textarea.input {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-animation: logoBig 18s linear infinite alternate 0s;
+          animation: logoBig 18s linear infinite alternate 0s;
 }
 
 .image-main_contain-two {
@@ -2121,6 +2244,18 @@ textarea.input {
 
 .card-advantages__icon {
   margin: 0px 0px 24px 0px;
+  -webkit-animation: logoMove 3s linear infinite alternate 0s;
+          animation: logoMove 3s linear infinite alternate 0s;
+}
+
+.card-advantages__icon_two {
+  -webkit-animation: logoMove 2.8s linear infinite alternate 0.5s;
+          animation: logoMove 2.8s linear infinite alternate 0.5s;
+}
+
+.card-advantages__icon_three {
+  -webkit-animation: logoMove 3.2s linear infinite alternate 0.3s;
+          animation: logoMove 3.2s linear infinite alternate 0.3s;
 }
 
 .card-advantages__title {

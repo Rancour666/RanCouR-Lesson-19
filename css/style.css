@@ -1188,250 +1188,250 @@ textarea.input {
 @-webkit-keyframes logoMove {
   0% {
     top: 24px;
-    -webkit-transform: scale(0.95);
-            transform: scale(0.95);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 
   10% {
     top: 23px;
-    -webkit-transform: scale(0.98);
-            transform: scale(0.98);
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
   }
 
   20% {
     top: 22px;
-    -webkit-transform: scale(1.01);
-            transform: scale(1.01);
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
   }
 
   30% {
     top: 21px;
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
+    -webkit-transform: scale(1.09);
+            transform: scale(1.09);
   }
 
   40% {
     top: 20px;
-    -webkit-transform: scale(1.07);
-            transform: scale(1.07);
+    -webkit-transform: scale(1.12);
+            transform: scale(1.12);
   }
 
   50% {
     top: 19px;
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
   }
 
   60% {
     top: 20px;
-    -webkit-transform: scale(1.07);
-            transform: scale(1.07);
+    -webkit-transform: scale(1.12);
+            transform: scale(1.12);
   }
 
   70% {
     top: 21px;
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
+    -webkit-transform: scale(1.09);
+            transform: scale(1.09);
   }
 
   80% {
     top: 22px;
-    -webkit-transform: scale(1.01);
-            transform: scale(1.01);
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
   }
 
   90% {
     top: 23px;
-    -webkit-transform: scale(0.98);
-            transform: scale(0.98);
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
   }
 
   100% {
     top: 24px;
-    -webkit-transform: scale(0.95);
-            transform: scale(0.95);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
 @keyframes logoMove {
   0% {
     top: 24px;
-    -webkit-transform: scale(0.95);
-            transform: scale(0.95);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 
   10% {
     top: 23px;
-    -webkit-transform: scale(0.98);
-            transform: scale(0.98);
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
   }
 
   20% {
     top: 22px;
-    -webkit-transform: scale(1.01);
-            transform: scale(1.01);
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
   }
 
   30% {
     top: 21px;
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
+    -webkit-transform: scale(1.09);
+            transform: scale(1.09);
   }
 
   40% {
     top: 20px;
-    -webkit-transform: scale(1.07);
-            transform: scale(1.07);
+    -webkit-transform: scale(1.12);
+            transform: scale(1.12);
   }
 
   50% {
     top: 19px;
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
   }
 
   60% {
     top: 20px;
-    -webkit-transform: scale(1.07);
-            transform: scale(1.07);
+    -webkit-transform: scale(1.12);
+            transform: scale(1.12);
   }
 
   70% {
     top: 21px;
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
+    -webkit-transform: scale(1.09);
+            transform: scale(1.09);
   }
 
   80% {
     top: 22px;
-    -webkit-transform: scale(1.01);
-            transform: scale(1.01);
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
   }
 
   90% {
     top: 23px;
-    -webkit-transform: scale(0.98);
-            transform: scale(0.98);
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
   }
 
   100% {
     top: 24px;
-    -webkit-transform: scale(0.95);
-            transform: scale(0.95);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
 @-webkit-keyframes logoBig {
   0% {
-    -webkit-transform: scale(0.95);
-            transform: scale(0.95);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 
   10% {
-    -webkit-transform: scale(0.98);
-            transform: scale(0.98);
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
   }
 
   20% {
-    -webkit-transform: scale(1.01);
-            transform: scale(1.01);
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
   }
 
   30% {
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
+    -webkit-transform: scale(1.09);
+            transform: scale(1.09);
   }
 
   40% {
-    -webkit-transform: scale(1.07);
-            transform: scale(1.07);
+    -webkit-transform: scale(1.12);
+            transform: scale(1.12);
   }
 
   50% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
   }
 
   60% {
-    -webkit-transform: scale(1.07);
-            transform: scale(1.07);
+    -webkit-transform: scale(1.12);
+            transform: scale(1.12);
   }
 
   70% {
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
+    -webkit-transform: scale(1.09);
+            transform: scale(1.09);
   }
 
   80% {
-    -webkit-transform: scale(1.01);
-            transform: scale(1.01);
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
   }
 
   90% {
-    -webkit-transform: scale(0.98);
-            transform: scale(0.98);
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
   }
 
   100% {
-    -webkit-transform: scale(0.95);
-            transform: scale(0.95);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
 @keyframes logoBig {
   0% {
-    -webkit-transform: scale(0.95);
-            transform: scale(0.95);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 
   10% {
-    -webkit-transform: scale(0.98);
-            transform: scale(0.98);
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
   }
 
   20% {
-    -webkit-transform: scale(1.01);
-            transform: scale(1.01);
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
   }
 
   30% {
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
+    -webkit-transform: scale(1.09);
+            transform: scale(1.09);
   }
 
   40% {
-    -webkit-transform: scale(1.07);
-            transform: scale(1.07);
+    -webkit-transform: scale(1.12);
+            transform: scale(1.12);
   }
 
   50% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
   }
 
   60% {
-    -webkit-transform: scale(1.07);
-            transform: scale(1.07);
+    -webkit-transform: scale(1.12);
+            transform: scale(1.12);
   }
 
   70% {
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
+    -webkit-transform: scale(1.09);
+            transform: scale(1.09);
   }
 
   80% {
-    -webkit-transform: scale(1.01);
-            transform: scale(1.01);
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
   }
 
   90% {
-    -webkit-transform: scale(0.98);
-            transform: scale(0.98);
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
   }
 
   100% {
-    -webkit-transform: scale(0.95);
-            transform: scale(0.95);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
@@ -2086,6 +2086,7 @@ textarea.input {
 }
 
 .main-image {
+  overflow: hidden;
   position: relative;
   padding: 0px 0px 100% 0px;
 }
@@ -2178,8 +2179,6 @@ textarea.input {
   line-height: 1.5;
   color: #000000;
   margin: 0px 0px 7px 0px;
-  height: 110px;
-  overflow: auto;
 }
 
 .navigation-tab__link-button {
